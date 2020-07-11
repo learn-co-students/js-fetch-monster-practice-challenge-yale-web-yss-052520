@@ -80,7 +80,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const monsterForm = document.querySelector('form#monster-form')
     function newMonster(){
-        // const monsterForm = document.querySelector('form#monster-form')
         const configObj = {
             method: 'POST',
             headers: {
